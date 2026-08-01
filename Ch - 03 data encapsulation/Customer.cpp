@@ -38,35 +38,14 @@ public:
     // getter
     void getData()
     {
-        cout << "Customer ID : " << cust_id;
-        cout << "Customer Name : " << cust_name;
-        cout << "Customer Age : " << cust_age;
-        cout << "Customer City : " << cust_city;
-        cout << "Mobile Number : " << cust_mobile_number;
-        cout << "SIM Card Validity : " << cust_simcard_validity << "years";
-        cout << "Telecome Brand Name : " << cust_telecom_brand_name;
+        cout << endl
+             << endl;
+        cout << "Customer ID : " << cust_id << endl;
+        cout << "Customer Name : " << cust_name << endl;
+        cout << "Customer Age : " << cust_age << endl;
+        cout << "Customer City : " << cust_city << endl;
+        cout << "Mobile Number : " << cust_mobile_number << endl;
+        cout << "SIM Card Validity : " << cust_simcard_validity << "years" << endl;
+        cout << "Telecome Brand Name : " << cust_telecom_brand_name << endl;
     }
 };
-
-int main()
-{
-    Customer c[5];
-
-    cout << "---Customer Record System--- " << endl
-         << endl;
-
-    for (int i = 0; i < 5; i++)
-    {
-        cout << endl;
-        cout << "Enter Details of Customer" << i + 1 << endl
-             << endl;
-        c[i].setData();
-    }
-
-    for (int i = 0; i < 5; i++)
-    {
-        c[i].getData();
-    }
-
-    return 0;
-}

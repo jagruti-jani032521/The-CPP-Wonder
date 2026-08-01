@@ -47,6 +47,8 @@ public:
     // getter
     void getData()
     {
+        cout << endl
+             << endl;
         cout << "Hotel ID : " << hotel_id << endl;
         cout << "Hotel Name : " << hotel_name << endl;
         cout << "Hotel Type : " << hotel_type << endl;
@@ -60,30 +62,3 @@ public:
 
 // static data member
 string Hotel::hotel_location;
-
-int main()
-{
-    int n;
-
-    cout << "Enter Number of Hotels : ";
-    cin >> n;
-
-    // enter location only once
-    Hotel::setLocation();
-
-    Hotel h[n];
-
-    for (int i = 0; i < n; i++)
-    {
-        cout << endl;
-        cout << "Enter Details of Hotel" << i + 1 << endl;
-        h[i].setData();
-    }
-
-    for (int i = 0; i < n; i++)
-    {
-        h[i].getData();
-    }
-
-    return 0;
-}

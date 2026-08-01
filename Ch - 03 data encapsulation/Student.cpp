@@ -38,35 +38,14 @@ public:
     // getter
     void getData()
     {
-        cout << "Student ID : " << stu_id;
-        cout << "Student Name : " << stu_name;
-        cout << "Student Age : " << stu_age;
-        cout << "Student Course : " << stu_college;
-        cout << "Student City : " << stu_city;
-        cout << "Student Email : " << stu_email;
+        cout << endl
+             << endl;
+        cout << "Student ID : " << stu_id << endl;
+        cout << "Student Name : " << stu_name << endl;
+        cout << "Student Age : " << stu_age << endl;
+        cout << "Student Course : " << stu_college << endl;
+        cout << "Student City : " << stu_city << endl;
+        cout << "Student Email : " << stu_email << endl;
         cout << "Student College : " << stu_college;
     }
 };
-
-int main()
-{
-    Student s[5];
-
-    cout << "---Student Record System--- " << endl
-         << endl;
-
-    for (int i = 0; i < 5; i++)
-    {
-        cout << endl;
-        cout << "Enter Details of Student" << i + 1 << endl
-             << endl;
-        s[i].setData();
-    }
-
-    for (int i = 0; i < 5; i++)
-    {
-        s[i].getData();
-    }
-
-    return 0;
-}
