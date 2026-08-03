@@ -19,7 +19,7 @@ public:
     static void setLocation()
     {
         cout << "Enter Hotel Location : ";
-        cin >> hotel_location;
+        cin >> this->hotel_location;
         cout << endl
              << endl;
     }
@@ -28,20 +28,20 @@ public:
     void setData()
     {
         cout << "Enter Hotel ID : ";
-        cin >> hotel_id;
+        cin >> this->hotel_id;
         fflush(stdin);
         cout << "Enter Hotel Name : ";
-        cin >> hotel_name;
+        cin >> this->hotel_name;
         cout << "Enter Hotel Type : ";
-        cin >> hotel_type;
+        cin >> this->hotel_type;
         cout << "Enter Hotel Rating : ";
-        cin >> hotel_rating;
+        cin >> this->hotel_rating;
         cout << "Enter Establish Year : ";
-        cin >> hotel_establish_year;
+        cin >> this->hotel_establish_year;
         cout << "Enter Staff Quantity : ";
-        cin >> hotel_staff_quantity;
+        cin >> this->hotel_staff_quantity;
         cout << "Enter Room Quantity : ";
-        cin >> hotel_room_quantity;
+        cin >> this->hotel_room_quantity;
     }
 
     // getter
@@ -49,16 +49,17 @@ public:
     {
         cout << endl
              << endl;
-        cout << "Hotel ID : " << hotel_id << endl;
-        cout << "Hotel Name : " << hotel_name << endl;
-        cout << "Hotel Type : " << hotel_type << endl;
-        cout << "Hotel Rating : " << hotel_rating << "Star" << endl;
-        cout << "Hotel Location : " << hotel_location << endl;
-        cout << "Establish Year : " << hotel_establish_year << endl;
-        cout << "Staff Quantity : " << hotel_staff_quantity << endl;
-        cout << "Room Quantity : " << hotel_room_quantity << endl;
+        cout << "Hotel ID : " << this->hotel_id << endl;
+        cout << "Hotel Name : " << this->hotel_name << endl;
+        cout << "Hotel Type : " << this->hotel_type << endl;
+        cout << "Hotel Rating : " << this->hotel_rating << "Star" << endl;
+        cout << "Hotel Location : " << this->hotel_location << endl;
+        cout << "Establish Year : " << this->hotel_establish_year << endl;
+        cout << "Staff Quantity : " << this->hotel_staff_quantity << endl;
+        cout << "Room Quantity : " << this->hotel_room_quantity << endl;
     }
 };
 
 // static data member
+
 string Hotel::hotel_location;

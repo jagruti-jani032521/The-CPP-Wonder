@@ -32,21 +32,21 @@ public:
     void setData()
     {
         cout << "Enter Cafe ID : ";
-        cin >> cafe_id;
+        cin >> this->cafe_id;
         fflush(stdin);
         cout << "Enter Cafe Name : ";
-        cin >> cafe_name;
+        cin >> this->cafe_name;
         cout << "Enter Cafe Type (Rooftop/Normal) : ";
-        cin >> cafe_type;
+        cin >> this->cafe_type;
         cout << "Enter Cafe Rating (1-5) : ";
-        cin >> cafe_rating;
+        cin >> this->cafe_rating;
         fflush(stdin);
         cout << "Enter Cafe Location : ";
-        cin >> cafe_location;
+        cin >> this->cafe_location;
         cout << "Enter Establish Year : ";
-        cin >> cafe_establish_year;
+        cin >> this->cafe_establish_year;
         cout << "Enter Staff Quantity : ";
-        cin >> cafe_staff_quantity;
+        cin >> this->cafe_staff_quantity;
     }
 
     // getter
@@ -55,13 +55,13 @@ public:
     {
         cout << endl
              << endl;
-        cout << "Cafe ID : " << cafe_id << endl;
-        cout << "Cafe Name : " << cafe_name << endl;
-        cout << "Cafe Type : " << cafe_type << endl;
-        cout << "Cafe Rating : " << cafe_rating << "Star" << endl;
-        cout << "Cafe Location : " << cafe_location << endl;
-        cout << "Establish Year : " << cafe_establish_year << endl;
-        cout << "Staff Quantity : " << cafe_staff_quantity;
+        cout << "Cafe ID : " << this->cafe_id << endl;
+        cout << "Cafe Name : " << this->cafe_name << endl;
+        cout << "Cafe Type : " << this->cafe_type << endl;
+        cout << "Cafe Rating : " << this->cafe_rating << "Star" << endl;
+        cout << "Cafe Location : " << this->cafe_location << endl;
+        cout << "Establish Year : " << this->cafe_establish_year << endl;
+        cout << "Staff Quantity : " << this->cafe_staff_quantity;
     }
 };
 

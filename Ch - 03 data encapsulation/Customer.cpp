@@ -18,21 +18,21 @@ public:
     void setData()
     {
         cout << "Enter Customer ID : ";
-        cin >> cust_id;
+        cin >> this->cust_id;
         fflush(stdin);
         cout << "Enter Customer Name : ";
-        cin >> cust_name;
+        cin >> this->cust_name;
         cout << "Enter Customer Age : ";
-        cin >> cust_age;
+        cin >> this->cust_age;
         fflush(stdin);
         cout << "Enter Customer City : ";
-        cin >> cust_city;
+        cin >> this->cust_city;
         cout << "Enter Customer Mobile Number : ";
-        cin >> cust_mobile_number;
+        cin >> this->cust_mobile_number;
         cout << "Enter SIM Card Validity (Years): ";
-        cin >> cust_simcard_validity;
+        cin >> this->cust_simcard_validity;
         cout << "Enter Telecome Brand Name : ";
-        cin >> cust_telecom_brand_name;
+        cin >> this->cust_telecom_brand_name;
     }
 
     // getter
@@ -40,12 +40,12 @@ public:
     {
         cout << endl
              << endl;
-        cout << "Customer ID : " << cust_id << endl;
-        cout << "Customer Name : " << cust_name << endl;
-        cout << "Customer Age : " << cust_age << endl;
-        cout << "Customer City : " << cust_city << endl;
-        cout << "Mobile Number : " << cust_mobile_number << endl;
-        cout << "SIM Card Validity : " << cust_simcard_validity << "years" << endl;
-        cout << "Telecome Brand Name : " << cust_telecom_brand_name << endl;
+        cout << "Customer ID : " << this->cust_id << endl;
+        cout << "Customer Name : " << this->cust_name << endl;
+        cout << "Customer Age : " << this->cust_age << endl;
+        cout << "Customer City : " << this->cust_city << endl;
+        cout << "Mobile Number : " << this->cust_mobile_number << endl;
+        cout << "SIM Card Validity : " << this->cust_simcard_validity << "years" << endl;
+        cout << "Telecome Brand Name : " << this->cust_telecom_brand_name << endl;
     }
 };

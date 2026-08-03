@@ -18,21 +18,21 @@ public:
     void setData()
     {
         cout << "enter student ID : ";
-        cin >> stu_id;
+        cin >> this->stu_id;
         fflush(stdin);
         cout << "enter student Name : ";
-        cin >> stu_name;
+        cin >> this->stu_name;
         cout << "enter studet Age : ";
-        cin >> stu_age;
+        cin >> this->stu_age;
         fflush(stdin);
         cout << "enter student Course : ";
-        cin >> stu_course;
+        cin >> this->stu_course;
         cout << "enter student City : ";
-        cin >> stu_city;
+        cin >> this->stu_city;
         cout << "enter student email : ";
-        cin >> stu_email;
+        cin >> this->stu_email;
         cout << "enter student college : ";
-        cin >> stu_college;
+        cin >> this->stu_college;
     }
 
     // getter
@@ -40,12 +40,12 @@ public:
     {
         cout << endl
              << endl;
-        cout << "Student ID : " << stu_id << endl;
-        cout << "Student Name : " << stu_name << endl;
-        cout << "Student Age : " << stu_age << endl;
-        cout << "Student Course : " << stu_college << endl;
-        cout << "Student City : " << stu_city << endl;
-        cout << "Student Email : " << stu_email << endl;
-        cout << "Student College : " << stu_college;
+        cout << "Student ID : " << this->stu_id << endl;
+        cout << "Student Name : " << this->stu_name << endl;
+        cout << "Student Age : " << this->stu_age << endl;
+        cout << "Student Course : " << this->stu_college << endl;
+        cout << "Student City : " << this->stu_city << endl;
+        cout << "Student Email : " << this->stu_email << endl;
+        cout << "Student College : " << this->stu_college;
     }
 };

@@ -32,13 +32,13 @@ public:
     {
         cout << endl
              << endl;
-        cout << "Company ID : " << comp_id << endl;
-        cout << "Company Name : " << comp_name << endl;
-        cout << "Staff Quantity : " << comp_staff_quantity << endl;
-        cout << "Revenue Per Year : " << comp_revenue << endl;
-        cout << "Import Raw Diamonds : " << comp_import_raw_diamonds << endl;
-        cout << "Export Diamonds : " << comp_export_diamonds << endl;
-        cout << "CEO Name : " << comp_ceo;
+        cout << "Company ID : " << this->comp_id << endl;
+        cout << "Company Name : " << this->comp_name << endl;
+        cout << "Staff Quantity : " << this->comp_staff_quantity << endl;
+        cout << "Revenue Per Year : " << this->comp_revenue << endl;
+        cout << "Import Raw Diamonds : " << this->comp_import_raw_diamonds << endl;
+        cout << "Export Diamonds : " << this->comp_export_diamonds << endl;
+        cout << "CEO Name : " << this->comp_ceo;
     }
 };
 
