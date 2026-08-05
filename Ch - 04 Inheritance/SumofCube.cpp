@@ -16,11 +16,11 @@ public:
     void setData()
     {
         cout << "Enter a value for a : ";
-        cin >> this->a;
+        cin >> a;
         cout << "Enter a value for b : ";
-        cin >> this->b;
+        cin >> b;
         cout << "Enter a value for c : ";
-        cin >> this->c;
+        cin >> c;
     }
 
     void getData()
